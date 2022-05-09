@@ -1,6 +1,6 @@
 import * as C from './styles'
 
-export const FormStepOne = () => {
+export const Theme = () => {
   return (
     <C.Container>
       
