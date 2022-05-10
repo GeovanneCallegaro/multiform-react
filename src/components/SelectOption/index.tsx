@@ -10,7 +10,7 @@ type Props = {
 
 export const SelectOption = ({title, description, icon, selected, handleClick}: Props) => {
   return (
-    <C.Container selected={selected} onClick={handleClick}>
+    <C.Container selected={selected} onClick={handleClick} className='containerOption'>
       <C.Icon>{icon}</C.Icon>
       <C.Info>
         <C.Title>{title}</C.Title>

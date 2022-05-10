@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectOption /> should match snapshot 1`] = `
+<div
+  class="sc-bczRLJ bgLQFX containerOption"
+>
+  <div
+    class="sc-gsnTZi dMXCmX"
+  >
+    icon 1
+  </div>
+  <div
+    class="sc-dkzDqf PTSyZ"
+  >
+    <div
+      class="sc-hKMtZM HetDM"
+    >
+      title 1
+    </div>
+    <div
+      class="sc-eCYdqJ hIjRhp"
+    >
+      body 1
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarItem /> should match snapshot 1`] = `
+<div
+  class="sc-bczRLJ nvUja"
+>
+  <a
+    href="/"
+  >
+    <div
+      class="sc-gsnTZi kgUNVx"
+    >
+      <div
+        class="sc-dkzDqf eiLjQC"
+      >
+        title1
+      </div>
+      <div
+        class="sc-hKMtZM gnrDwn"
+      >
+        body1
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ csAXp"
+    >
+      <svg
+        fill="white"
+        height="24"
+        width="24"
+      >
+        check.svg
+      </svg>
+    </div>
+    <div
+      class="sc-jSMfEi etUSDR"
+    />
+  </a>
+</div>
+`;
