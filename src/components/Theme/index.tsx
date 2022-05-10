@@ -41,6 +41,14 @@ export const Theme = ({ children }: Props) => {
               active={state.currentStep === 3}
             />
 
+            <SidebarItem
+              title='Sucesso'
+              description='Seu cadastro foi feito com sucesso!'
+              icon='check'
+              path='/check'
+              active={state.currentStep === 4}
+            />
+
           </C.Sidebar>
           <C.Page>
             {children}
