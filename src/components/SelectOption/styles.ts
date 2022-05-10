@@ -12,6 +12,15 @@ export const Container = styled.div<{ selected: boolean }>`
   &:hover {
     border: 2px solid #496459;
   }
+
+  @media (max-width: 580px) {
+    padding: 10px;
+    width: 300px;
+  }
+
+  @media (max-width: 340px) {
+    width: 260px;
+  }
 `
 
 export const Icon = styled.div`
@@ -23,6 +32,12 @@ export const Icon = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 25px;
+
+  @media (max-width: 580px) {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
 `
 
 export const Info = styled.div`
@@ -34,10 +49,13 @@ export const Title = styled.div`
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 7px;
-
 `
 
 export const Description = styled.div`
   font-size: 14px;
   color: #b8b8d4;
+
+  @media (max-width: 580px) {
+    font-size: 12px;
+  }
 `

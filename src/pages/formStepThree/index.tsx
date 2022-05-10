@@ -23,6 +23,7 @@ export const FormStepThree= () => {
   const handleCompletionPage = () => {
     if(state.email !== '' && state.github !== '') {
       navigate('/check')
+      console.log(state)
     } else {
       alert('Preencha os dados')
     }

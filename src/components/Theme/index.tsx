@@ -48,7 +48,6 @@ export const Theme = ({ children }: Props) => {
               path='/check'
               active={state.currentStep === 4}
             />
-
           </C.Sidebar>
           <C.Page>
             {children}

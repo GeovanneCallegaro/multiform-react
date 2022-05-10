@@ -1,21 +1,24 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Theme } from '../../components/Theme'
-import { useForm } from '../../contexts/FormContext'
+import { useForm, FormActions } from '../../contexts/FormContext'
 import * as C from './styles'
 
 export const FinalizedForm = () => {
-  const {state} = useForm()
+  const {state, dispatch} = useForm()
   const navigate = useNavigate()
 
   useEffect(() => {
-    if(state.name === '') {
+    if(state.name === '' || state.email === '' || state.github === '') {
       navigate('/')
     } else {
-      state.currentStep = 4
+      dispatch({
+        type: FormActions.setCurrentStep,
+        payload: 4
+      })
     }
 
-  }, [navigate, state])
+  }, [navigate, state.name, dispatch, state.email, state.github])
 
   return (
     <Theme>

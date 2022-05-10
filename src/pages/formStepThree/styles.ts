@@ -36,6 +36,12 @@ export const Container = styled.div`
       outline: 0;
       font-size: 15px;
       background-color: #02044a;
+
+      @media (max-width: 580px) {
+        padding: 15px 10px;
+        font-size: 14px;
+        width: 80%;
+      }
     }
   }
 
@@ -49,6 +55,12 @@ export const Container = styled.div`
     border-radius: 30px;
     cursor: pointer;
     margin-top: 30px;
+
+    @media (max-width: 580px) {
+      padding: 20px 30px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
   }
 
   .backButton {
@@ -56,5 +68,10 @@ export const Container = styled.div`
     text-decoration: none;
     padding: 20px 40px;
     color: #b8b8d4;
+
+    @media (max-width: 580px) {
+      padding: 15px 25px;
+      font-size: 14px;
+    }
   }
 `
