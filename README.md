@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Multiform React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./images-project/multiform-pc.png" alt="Imagem da Página Principal do projeto">
 
-## Available Scripts
+> Um projeto que simula o funcionamento de um formulário multi etapas, onde o usuário vai preenchendo suas informações como avança.
 
-In the project directory, you can run:
+<p align="center">Acesse o projeto clicando <a href="https://multiform-react-three.vercel.app/"> aqui </a></p>
 
-### `npm start`
+### Ajustes e melhorias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto encontra-se finalizado! Entretanto, ainda há pontos para sua melhoria:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [ ] Testar os componentes
 
-### `npm test`
+## 💻 Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente das linguagens, dependências e bibliotecas requiridas
+* Você leu o guia relacionado ao projeto
 
-### `npm run build`
+## 🔧 Tecnologias usadas no projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="Logo do HTML"></img>
+<img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="Logo do CSS"></img>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Logo do Javascript"></img>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Logo do React"></img>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="Logo do React Router"></img>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Instalando AutoLuby Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para instalar o projeto, siga estas etapas:
 
-### `npm run eject`
+Windows:
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🔐Fazer login no projeto (verificar o arquivo de mock)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ☑ Funcionalidades do projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Registrar seus dados
+- [x] Ao final, é capaz verificar tudo que foi preenchido!
+- [x] Proteção para que não possa avançar sem preencher as telas
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## ✨ Mais imagens do projeto
 
-## Learn More
+<img src="./images-project/multiform-2.png" alt="Imagem da Segunda Página - Desktop">
+<img src="./images-project/multiform-3.png" alt="Imagem da Terceira Página - Desktop">
+<img src="./images-project/multiform-4.png" alt="Imagem da Quarta Página - Desktop">
+<img src="./images-project/multiform-1m.png" alt="Imagem da Primeira Página - Mobile">
+<img src="./images-project/multiform-2m.png" alt="Imagem da Segunda Página - Mobile">
+<img src="./images-project/multiform3-m.png" alt="Imagem da Terceira Página - Mobile">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📫 Contribuindo para o projeto
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+Para contribuir com o projeto, siga estas etapas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/89392932" width="100px;" alt="Foto de Geovanne Callegaro no GitHub"/><br>
+        <sub>
+          <b>Geovanne Callegaro</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
